@@ -1,0 +1,1 @@
+QUERY: Structure Similarity WHERE ( PDB ID = "1VRT" AND Assembly ID = "1" AND Shape Match = "Strict" )
