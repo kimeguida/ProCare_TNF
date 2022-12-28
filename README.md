@@ -3,7 +3,7 @@
 
 [![Generic badge](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://shields.io/)  
 
-Prospective application of [ProCare](https://github.com/kimeguida/ProCare) to identify cavity similarities between remote proteins.  
+Prospective application of [ProCare](https://github.com/kimeguida/ProCare) to identify subpocket similarities between structurally and functionally remote proteins.  
 Source data for:  
 Eguida, M., Rognan, D. Unexpected similarity between HIV-1 reverse transcriptase and tumor necrosis factor binding sites revealed by computer vision. *J Cheminform* 13, 90 (2021). https://doi.org/10.1186/s13321-021-00567-3  
 
