@@ -1,59 +1,47 @@
-Authors: Eguida M, keguida@unistra.fr and Rognan D, rognan@unistra.fr
-
-# Unexpected binding site similarity between HIV-1 reverse transcriptase and tumor necrosis factor revealed by computer vision.
+# ProCare: Unexpected binding site similarity between HIV-1 reverse transcriptase and tumor necrosis factor revealed by computer vision
 
 
-## Content of this directory:
-### subdirectories
+[![Generic badge](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://shields.io/)  
+
+Prospective application of ProCare to identify cavity similarities between remote proteins.  
+Source data for:  
+Eguida, M., Rognan, D. Unexpected similarity between HIV-1 reverse transcriptase and tumor necrosis factor binding sites revealed by computer vision.  
+J Cheminform 13, 90 (2021). https://doi.org/10.1186/s13321-021-00567-3  
+
+Contacts:  
+Merveille Eguida, keguida(at)unistra[dot]fr  
+Didier Rognan, rognan(at)unistra[dot]fr   
+
+
+## Content
 .
-|-- binding_sites_comparisons
-|-- input_data
-`-- ligands_comparisons
-shared upon request
-
-### files
-.
-|-- amino_acids_standard.txt
-|-- hiv1_rt_chembl_potent_inhibitors.tsv
-|-- hiv1_rt_chembl_targets.txt
-|-- pdb_1vrt_query_results.txt
-|-- pdb_1vrt_query_results_uniprot.txt
-|-- pdb_1vrt_query.txt
-|-- README
-`-- scpdb_hiv1_rt.tsv
-
-
-## Input structures for binding sites and ligands comparisons are in input_data/
-## ChEMBL ligands for 2D comparisons: hiv1_rt_chembl_potent_inhibitors.tsv
-## Output scores: files in binding_sites_comparisons/ and ligands_comparisons/
-
-### binding_sites_comparisons/
-.
-|-- fuzcav_scores.tsv
-|-- glosa_scores.tsv
-|-- kripo_scores.tsv
-|-- probis_scores.tsv
-|-- procare_scores.tsv
-|-- shaper_scores.tsv
-`-- sitealign_scores.tsv
-
-### ligands_comparisons/
-.
-|-- chembl_ligand_2d_similarity.tsv
-|-- rocs.tsv
-`-- tnf_hiv1rt_ligand_2D_similarity.tsv
+|-- input_data.tgz		---> ***prepared input structures  for binding sites and ligands comparisons***  
+|-- binding_sites_comparisons		---> ***pockets similarity/distance scores***  
+|-------- fuzcav_scores.tsv  
+|-------- glosa_scores.tsv  
+|-------- kripo_scores.tsv  
+|-------- probis_scores.tsv  
+|-------- procare_scores.tsv  
+|-------- shaper_scores.tsv  
+|-------- sitealign_scores.tsv  
+|-- ligands_comparisons		---> ***ligands similarity scores***  
+|-------- chembl_ligand_2d_similarity.tsv  
+|-------- rocs.tsv  
+|-------- tnf_hiv1rt_ligand_2D_similarity.tsv  
+|-- amino_acids_standard.txt		---> ***standard amino acid list used by SiteAlign***  
+|-- hiv1_rt_chembl_potent_inhibitors.tsv	---> ***ChEMBL HIV-1 RT ligands for 2D comparisons***   
+|-- hiv1_rt_chembl_targets.txt  
+|-- pdb_1vrt_query_results.txt		---> ***PDB query to retrieve HIV-1 RT structures + visual filtering***  
+|-- pdb_1vrt_query_results_uniprot.txt		---> ***PDB query to retrieve HIV-1 RT structures + visual filtering***  
+|-- pdb_1vrt_query.txt		---> ***PDB query to retrieve HIV-1 RT structures + visual filtering***  
+|-- scpdb_hiv1_rt.tsv		---> ***final list of HIV-1 RT structures***  
+`-- videoS1.mp4		---> ***ProCare-aligned HIV-1 RT cavity (purple point cloud) onto TNF-a cloud (white points) showing bound RT ligand (NVP)***  
 
 
-## standard amino acid list used by SiteAlign
-## ChEMBL target ID for HIV-1 RT --> considered bioassays: hiv1_rt_chembl_targets.txt
-## PDB query to retrieve HIV-1 RT structures: pdb_1vrt_query.txt, pdb_1vrt_query_results.txt, pdb_1vrt_query_results_uniprot.txt + manual filtering + visual inspection
-## final list of HIV-1 RT structures: scpdb_hiv1_rt.tsv
-## README: this file
+## References
+If you use these data, please cite the references below:  
 
-
-If you use these data, please cite the references below:
-
-## References:
+- Eguida, M., Rognan, D. Unexpected similarity between HIV-1 reverse transcriptase and tumor necrosis factor binding sites revealed by computer vision.  J. Cheminf. 2021 13, 90.
 - Eguida, M.; Rognan, D. A Computer Vision Approach to Align and Compare Protein Cavities: Application to Fragment-Based Drug Design. J. Med. Chem. 2020, 63, 7127–7142.
 - Weill, N.; Rognan, D. Alignment-Free Ultra-High-Throughput Comparison of Druggable Protein-Ligand Binding Sites. J. Chem. Inf. Model. 2010, 50, 123–135.
 - Lee, H. S.; Im, W. G-LoSA: An Efficient Computational Tool for Local Structure-Centric Biological Studies and Drug Design. Protein Sci. 2016, 25, 865–876.
