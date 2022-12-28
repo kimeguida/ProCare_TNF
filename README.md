@@ -37,6 +37,24 @@ Didier Rognan, rognan(at)unistra[dot]fr
 `-- videoS1.mp4		---> ***ProCare-aligned HIV-1 RT cavity (purple point cloud) onto TNF-a cavity cloud (white points) showing bound RT ligand (NVP)***  
 
 
+## License
+
+Apache License 2.0  
+Copyright 2022 LIT  
+
+For academic use only.  
+The above copyright notice and this permission notice shall be included in all  
+copies or substantial portions of the Software and data.  
+
+THE SOFTWARE AND DATA ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,  
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE  
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER  
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
+OUT OF OR IN CONNECTION WITH THE SOFTWARE AND DATA OR THE USE OR OTHER DEALINGS IN THE  
+SOFTWARE AND DATA.  
+
+
 ## References
 If you use these data, please cite the references below:  
 
