@@ -3,10 +3,9 @@
 
 [![Generic badge](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://shields.io/)  
 
-Prospective application of ProCare to identify cavity similarities between remote proteins.  
+Prospective application of [ProCare](https://github.com/kimeguida/ProCare) to identify cavity similarities between remote proteins.  
 Source data for:  
-Eguida, M., Rognan, D. Unexpected similarity between HIV-1 reverse transcriptase and tumor necrosis factor binding sites revealed by computer vision.  
-J Cheminform 13, 90 (2021). https://doi.org/10.1186/s13321-021-00567-3  
+Eguida, M., Rognan, D. Unexpected similarity between HIV-1 reverse transcriptase and tumor necrosis factor binding sites revealed by computer vision. *J Cheminform* 13, 90 (2021). https://doi.org/10.1186/s13321-021-00567-3  
 
 Contacts:  
 Merveille Eguida, keguida(at)unistra[dot]fr  
@@ -14,7 +13,7 @@ Didier Rognan, rognan(at)unistra[dot]fr
 
 
 ## Content
-.
+.  
 |-- input_data.tgz		---> ***prepared input structures  for binding sites and ligands comparisons***  
 |-- binding_sites_comparisons		---> ***pockets similarity/distance scores***  
 |-------- fuzcav_scores.tsv  
@@ -35,7 +34,7 @@ Didier Rognan, rognan(at)unistra[dot]fr
 |-- pdb_1vrt_query_results_uniprot.txt		---> ***PDB query to retrieve HIV-1 RT structures + visual filtering***  
 |-- pdb_1vrt_query.txt		---> ***PDB query to retrieve HIV-1 RT structures + visual filtering***  
 |-- scpdb_hiv1_rt.tsv		---> ***final list of HIV-1 RT structures***  
-`-- videoS1.mp4		---> ***ProCare-aligned HIV-1 RT cavity (purple point cloud) onto TNF-a cloud (white points) showing bound RT ligand (NVP)***  
+`-- videoS1.mp4		---> ***ProCare-aligned HIV-1 RT cavity (purple point cloud) onto TNF-a cavity cloud (white points) showing bound RT ligand (NVP)***  
 
 
 ## References
